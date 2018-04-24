@@ -1,0 +1,130 @@
+//------------------------------
+// Cool
+//------------------------------
+
+$aqua:  #7fdBff;
+$blue:  #0074d9;
+$navy:  #001f3f;
+$teal:  #39cccc;
+$green: #2ecc40;
+$olive: #3d9970;
+$lime:  #01ff70;
+
+.bg--aqua {
+  background-color: $aqua;
+}
+
+.bg--blue {
+  background-color: $blue;
+}
+
+.bg--navy {
+  background-color: $navy;
+}
+
+.bg--teal {
+  background-color: $teal;
+}
+
+.bg--green {
+  background-color: $green;
+}
+
+.bg--olive {
+  background-color: $olive;
+}
+
+.bg--lime {
+  background-color: $lime;
+}
+
+
+
+//------------------------------
+// Warm
+//------------------------------
+
+$yellow:  #ffdc00;
+$orange:  #ff851b;
+$red:     #ff4136;
+$fuchsia: #f012be;
+$purple:  #b10dc9;
+$maroon:  #85144b;
+
+.bg--yellow {
+  background-color: $yellow;
+}
+
+.bg--orange {
+  background-color: $orange;
+}
+
+.bg--red {
+  background-color: $red;
+}
+
+.bg--fuchsia {
+  background-color: $fuchsia;
+}
+
+.bg--purple {
+  background-color: $purple;
+}
+
+.bg--maroon {
+  background-color: $maroon;
+}
+
+
+
+//------------------------------
+// Grayscale
+//------------------------------
+
+$white:       #fff;
+$silver:      #ddd;
+$gray:        #aaa;
+$black:       #111;
+$dark_gray:   #2e353d;
+$charcoal:    #353c45;
+$slate_gray:  #444b53;
+
+.bg--white {
+  background-color: $white;
+}
+
+.bg--silver {
+  background-color: $silver;
+}
+
+.bg--gray {
+  background-color: $gray;
+}
+
+.bg--black {
+  background-color: $black;
+}
+
+.bg--dark-gray {
+  background-color: $dark_gray;
+}
+
+.bg--charcoal {
+  background-color: $charcoal;
+}
+
+.bg--slate-gray {
+  background-color: $slate_gray;
+}
+
+
+
+//------------------------------
+// Branding
+//------------------------------
+
+$default: #07d0eb;
+
+.bg--default {
+  background-color: $default;
+}

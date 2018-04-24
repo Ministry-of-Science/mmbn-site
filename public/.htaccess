@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} .*jpg$|.*gif$|.*png$|.*zip$ [NC]
+  RewriteCond %{HTTP_REFERER} !^$
+  RewriteCond %{HTTP_REFERER} !megamanbattle.network [NC]
+</IfModule>
+
+# RewriteCond %{HTTP_REFERER} !friendlysite.com [NC]
+# RewriteCond %{HTTP_REFERER} !google. [NC]
+# RewriteCond %{HTTP_REFERER} !search?q=cache [NC]RewriteRule (.*) /showpic.php?pic=$1
